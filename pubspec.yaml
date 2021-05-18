@@ -1,0 +1,50 @@
+name: covid19_tracking
+description: A Flutter project to track Covid19 cases.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  url_launcher: ^6.0.3
+  auto_size_text: ^2.1.0
+  intl: ^0.17.0
+  font_awesome_flutter: ^9.0.0
+  image_picker: ^0.7.3
+  path_provider: ^2.0.1
+  speech_to_text: ^4.1.0-nullsafety
+  square_in_app_payments: ^1.7.0
+  fl_chart: ^0.35.0
+  rive: ^0.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/country_flags/
+    - assets/avatar/
+    - assets/safety_precautions/
+    - assets/how_it_spreads/
+    - assets/logo/
+    - assets/vaccine-passport/
+    - assets/rive/barrier-gate.riv
+
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: assets/fonts/Acme/Acme.ttf
+        
