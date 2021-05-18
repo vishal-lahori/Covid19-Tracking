@@ -1,6 +1,6 @@
 # covid19_tracking
 
-A new Flutter project.
+Covid-19 Tracking app build using Flutter for android and ios.
 
 ## Getting Started
 
